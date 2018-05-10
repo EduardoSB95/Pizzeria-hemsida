@@ -1,0 +1,161 @@
+* {
+    margin: 0%;
+    max-width: 100%;
+}
+/*#container {
+    display: flex;
+    flex-wrap: wrap;
+}*/
+
+body {
+    background-color: rgb(241, 235, 235);
+}
+
+.topnav {
+    background-color: rgb(180, 12, 12);
+    width: 100%;
+    overflow: hidden;
+}
+
+.topnav, a {
+    text-align: right;
+    /*padding: 15px;*/
+    color: white;
+    text-decoration: none;
+    font-size: 185%;
+}
+
+.nav {
+    padding: 50px;
+}
+
+.topnav a:hover {
+    /*background-color: #ddd;*/
+    color: black;
+    text-decoration: underline;
+}
+
+.logo {
+    /*display: flex;
+    justify-content: flex-start;*/
+    height: 160px;
+    /*margin: -10px;*/
+    float: left;
+    padding-left: 30px;
+}
+
+/*.block {
+    background-image: url("img/logoPizza.png");
+}*/
+
+
+.wrap {
+    background-color: white;
+    width: 1000px; 
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /*display: flex;
+    flex-wrap: wrap;*/
+    text-align: center;
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+}
+
+/* This is the text underneath the img */
+.wrap-text {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(19, 13, 5);
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.footer {
+    background-color: rgb(180, 12, 12);
+    width: 100%;
+    bottom: 0%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    margin: 12px;
+}
+
+.footer-text {
+    background-color: rgb(245, 235, 235);
+    text-align: center;
+}
+
+/*--Every adjustment underneath is for the kontakt.html--*/
+
+.thirdLine {
+    background-color: purple;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 60px;
+}
+
+.contact h2 {
+    margin-top: 0px;
+    /*padding-top: 55px;*/
+}
+
+.textAk {
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+
+#map { /* Map adjustments */
+    height: 200px;
+    width: 320px;
+    border-radius: 3px;
+}
+
+.tA textarea {
+    width: 320px;
+}
+
+.tA {
+    padding: 8.5px;
+}
+
+.button {
+    width: 326px;
+    height: 36px;
+    background-color: rgb(51, 46, 46);
+    border: none;
+    border-radius: 3px;
+}
+
+.button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.bigTa {
+    height: 72px;
+}
+
+textarea {
+    border-radius: 3px; 
+}
+
+/*@media screen and (max-width: 1200px) {
+    img {
+        width: 100%;
+    }
+}*/
